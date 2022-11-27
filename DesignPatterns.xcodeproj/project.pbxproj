@@ -74,8 +74,8 @@
 				E1CDCE052933702D003C6D40 /* Payment.swift */,
 				E1CDCE0729337037003C6D40 /* GooglePayment.swift */,
 				E1CDCE0B29337049003C6D40 /* CardPayment.swift */,
-				E1CDCE0929337048003C6D40 /* PaymentFactory.swift */,
 				E1CDCE0A29337048003C6D40 /* PaymentType.swift */,
+				E1CDCE0929337048003C6D40 /* PaymentFactory.swift */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -98,8 +98,16 @@
 			isa = PBXGroup;
 			children = (
 				E1CDCE0F2933705A003C6D40 /* FactoryMethod */,
+				E1CDCE1729338983003C6D40 /* AbstractFactory */,
 			);
 			path = Creational;
+			sourceTree = "<group>";
+		};
+		E1CDCE1729338983003C6D40 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

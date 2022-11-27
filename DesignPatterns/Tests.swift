@@ -49,7 +49,7 @@ struct Tests {
             testFactoryMethod()
         }
     }
-    
+
     func testFactoryMethod() {
         var payment: Payment
         payment = PaymentFactory.buildPayment(paymentType: .CARD)
