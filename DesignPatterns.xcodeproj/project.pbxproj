@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E1CDCDF229337014003C6D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCDF129337014003C6D40 /* AppDelegate.swift */; };
-		E1CDCDF429337014003C6D40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCDF329337014003C6D40 /* SceneDelegate.swift */; };
-		E1CDCDF629337014003C6D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCDF529337014003C6D40 /* ViewController.swift */; };
-		E1CDCDF929337014003C6D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CDCDF729337014003C6D40 /* Main.storyboard */; };
-		E1CDCDFB29337016003C6D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CDCDFA29337016003C6D40 /* Assets.xcassets */; };
-		E1CDCDFE29337016003C6D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CDCDFC29337016003C6D40 /* LaunchScreen.storyboard */; };
+		E1CDCE062933702D003C6D40 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE052933702D003C6D40 /* Payment.swift */; };
+		E1CDCE0829337037003C6D40 /* GooglePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE0729337037003C6D40 /* GooglePayment.swift */; };
+		E1CDCE0C29337049003C6D40 /* PaymentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE0929337048003C6D40 /* PaymentFactory.swift */; };
+		E1CDCE0D29337049003C6D40 /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE0A29337048003C6D40 /* PaymentType.swift */; };
+		E1CDCE0E29337049003C6D40 /* CardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE0B29337049003C6D40 /* CardPayment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1CDCDEE29337014003C6D40 /* DesignPatterns2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CDCDEE29337014003C6D40 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CDCDF129337014003C6D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E1CDCDF329337014003C6D40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E1CDCDF529337014003C6D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E1CDCDF829337014003C6D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E1CDCDFA29337016003C6D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E1CDCDFD29337016003C6D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1CDCDFF29337016003C6D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CDCE052933702D003C6D40 /* Payment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		E1CDCE0729337037003C6D40 /* GooglePayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePayment.swift; sourceTree = "<group>"; };
+		E1CDCE0929337048003C6D40 /* PaymentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentFactory.swift; sourceTree = "<group>"; };
+		E1CDCE0A29337048003C6D40 /* PaymentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
+		E1CDCE0B29337049003C6D40 /* CardPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPayment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		E1CDCDE529337014003C6D40 = {
 			isa = PBXGroup;
 			children = (
-				E1CDCDF029337014003C6D40 /* DesignPatterns2 */,
+				E1CDCDF029337014003C6D40 /* DesignPatterns */,
 				E1CDCDEF29337014003C6D40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +48,47 @@
 		E1CDCDEF29337014003C6D40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1CDCDEE29337014003C6D40 /* DesignPatterns2.app */,
+				E1CDCDEE29337014003C6D40 /* DesignPatterns.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1CDCDF029337014003C6D40 /* DesignPatterns2 */ = {
+		E1CDCDF029337014003C6D40 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
 				E1CDCDF129337014003C6D40 /* AppDelegate.swift */,
-				E1CDCDF329337014003C6D40 /* SceneDelegate.swift */,
-				E1CDCDF529337014003C6D40 /* ViewController.swift */,
-				E1CDCDF729337014003C6D40 /* Main.storyboard */,
-				E1CDCDFA29337016003C6D40 /* Assets.xcassets */,
-				E1CDCDFC29337016003C6D40 /* LaunchScreen.storyboard */,
+				E1CDCE1029337070003C6D40 /* Creational */,
 				E1CDCDFF29337016003C6D40 /* Info.plist */,
 			);
-			path = DesignPatterns2;
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		E1CDCE0F2933705A003C6D40 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDCE052933702D003C6D40 /* Payment.swift */,
+				E1CDCE0729337037003C6D40 /* GooglePayment.swift */,
+				E1CDCE0B29337049003C6D40 /* CardPayment.swift */,
+				E1CDCE0929337048003C6D40 /* PaymentFactory.swift */,
+				E1CDCE0A29337048003C6D40 /* PaymentType.swift */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		E1CDCE1029337070003C6D40 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				E1CDCE0F2933705A003C6D40 /* FactoryMethod */,
+			);
+			path = Creational;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1CDCDED29337014003C6D40 /* DesignPatterns2 */ = {
+		E1CDCDED29337014003C6D40 /* DesignPatterns */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1CDCE0229337016003C6D40 /* Build configuration list for PBXNativeTarget "DesignPatterns2" */;
+			buildConfigurationList = E1CDCE0229337016003C6D40 /* Build configuration list for PBXNativeTarget "DesignPatterns" */;
 			buildPhases = (
 				E1CDCDEA29337014003C6D40 /* Sources */,
 				E1CDCDEB29337014003C6D40 /* Frameworks */,
@@ -82,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = DesignPatterns2;
+			name = DesignPatterns;
 			productName = DesignPatterns2;
-			productReference = E1CDCDEE29337014003C6D40 /* DesignPatterns2.app */;
+			productReference = E1CDCDEE29337014003C6D40 /* DesignPatterns.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1CDCDE929337014003C6D40 /* Build configuration list for PBXProject "DesignPatterns2" */;
+			buildConfigurationList = E1CDCDE929337014003C6D40 /* Build configuration list for PBXProject "DesignPatterns" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1CDCDED29337014003C6D40 /* DesignPatterns2 */,
+				E1CDCDED29337014003C6D40 /* DesignPatterns */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +141,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1CDCDFE29337016003C6D40 /* LaunchScreen.storyboard in Resources */,
-				E1CDCDFB29337016003C6D40 /* Assets.xcassets in Resources */,
-				E1CDCDF929337014003C6D40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +151,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1CDCDF629337014003C6D40 /* ViewController.swift in Sources */,
 				E1CDCDF229337014003C6D40 /* AppDelegate.swift in Sources */,
-				E1CDCDF429337014003C6D40 /* SceneDelegate.swift in Sources */,
+				E1CDCE0829337037003C6D40 /* GooglePayment.swift in Sources */,
+				E1CDCE062933702D003C6D40 /* Payment.swift in Sources */,
+				E1CDCE0E29337049003C6D40 /* CardPayment.swift in Sources */,
+				E1CDCE0D29337049003C6D40 /* PaymentType.swift in Sources */,
+				E1CDCE0C29337049003C6D40 /* PaymentFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E1CDCDF729337014003C6D40 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1CDCDF829337014003C6D40 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E1CDCDFC29337016003C6D40 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1CDCDFD29337016003C6D40 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E1CDCE0029337016003C6D40 /* Debug */ = {
@@ -289,7 +286,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96GRBZY78X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DesignPatterns2/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.DesignPatterns2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +314,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 96GRBZY78X;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DesignPatterns2/Info.plist;
+				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.DesignPatterns2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.DesignPatterns;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1CDCDE929337014003C6D40 /* Build configuration list for PBXProject "DesignPatterns2" */ = {
+		E1CDCDE929337014003C6D40 /* Build configuration list for PBXProject "DesignPatterns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1CDCE0029337016003C6D40 /* Debug */,
@@ -348,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1CDCE0229337016003C6D40 /* Build configuration list for PBXNativeTarget "DesignPatterns2" */ = {
+		E1CDCE0229337016003C6D40 /* Build configuration list for PBXNativeTarget "DesignPatterns" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1CDCE0329337016003C6D40 /* Debug */,
