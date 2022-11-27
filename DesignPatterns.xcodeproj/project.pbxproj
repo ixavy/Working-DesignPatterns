@@ -13,6 +13,7 @@
 		E1CDCE0C29337049003C6D40 /* PaymentFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE0929337048003C6D40 /* PaymentFactory.swift */; };
 		E1CDCE0D29337049003C6D40 /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE0A29337048003C6D40 /* PaymentType.swift */; };
 		E1CDCE0E29337049003C6D40 /* CardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE0B29337049003C6D40 /* CardPayment.swift */; };
+		E1CDCE1229337386003C6D40 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CDCE1129337386003C6D40 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1CDCE0929337048003C6D40 /* PaymentFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentFactory.swift; sourceTree = "<group>"; };
 		E1CDCE0A29337048003C6D40 /* PaymentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
 		E1CDCE0B29337049003C6D40 /* CardPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPayment.swift; sourceTree = "<group>"; };
+		E1CDCE1129337386003C6D40 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E1CDCDF129337014003C6D40 /* AppDelegate.swift */,
-				E1CDCE1029337070003C6D40 /* Creational */,
+				E1CDCE1129337386003C6D40 /* Tests.swift */,
+				E1CDCE1629338901003C6D40 /* Creational */,
+				E1CDCE14293388C6003C6D40 /* Structural */,
+				E1CDCE15293388DA003C6D40 /* Behavioral */,
 				E1CDCDFF29337016003C6D40 /* Info.plist */,
 			);
 			path = DesignPatterns;
@@ -75,7 +80,21 @@
 			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
-		E1CDCE1029337070003C6D40 /* Creational */ = {
+		E1CDCE14293388C6003C6D40 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		E1CDCE15293388DA003C6D40 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		E1CDCE1629338901003C6D40 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
 				E1CDCE0F2933705A003C6D40 /* FactoryMethod */,
@@ -151,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CDCE1229337386003C6D40 /* Tests.swift in Sources */,
 				E1CDCDF229337014003C6D40 /* AppDelegate.swift in Sources */,
 				E1CDCE0829337037003C6D40 /* GooglePayment.swift in Sources */,
 				E1CDCE062933702D003C6D40 /* Payment.swift in Sources */,
@@ -289,7 +309,7 @@
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,7 +337,7 @@
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
